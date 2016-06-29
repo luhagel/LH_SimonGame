@@ -1,0 +1,41 @@
+body {
+  background: #232323;
+  padding-top: 50px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.color-panel {
+  border: 1px solid white;
+  height: 180px;
+  width: 50%;
+  opacity: 0.6;
+  padding: 0;
+}
+.color-panel:hover {
+  opacity: 0.8;
+}
+.active {
+  opacity: 1;
+}
+p {
+    color: white;
+    margin-top: 10px;
+}
+#green {
+  background: green;
+  border-radius: 0 0 100% 0;
+}
+#yellow {
+  background: yellow;
+  border-radius: 0 0 0 100%;
+}
+#red {
+  background: red;
+  border-radius: 100% 0 0 0;
+}
+#blue {
+  background: blue;
+  border-radius: 0 100% 0 0;
+}
